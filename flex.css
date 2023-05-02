@@ -1,0 +1,46 @@
+* {
+ margin: 0;
+ box-sizing: border-box;
+}
+body {
+background: url("https://bit.ly/hw4madina"); 
+opacity: .5;
+background-repeat: no-repeat;
+}
+.container {
+max-width: 1400px;
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+.container > * {
+background-color: lightblue;
+font-size: 10rem;
+ color: blue;
+ border: 2px dashed blue;
+}
+    .box1{
+        width: 1401px;
+        height: 200px;
+
+    }
+    .box2{
+        height: 202px;
+        width: 309px;
+    }
+    .box3{
+        height: 202px;
+        width: 1071px;
+    }
+    .box4{
+        height: 201px;
+        width: 543px;
+    }
+    .box5{
+        height: 201px;
+        width: 543px;
+    }
+    .box6{
+        height: 201px;
+        width: 274px;
+    }
