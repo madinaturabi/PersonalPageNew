@@ -1,0 +1,47 @@
+style.css
+body {
+    font-family: Arial;
+}
+#header{
+    background-color: dimgray;
+    height: 3.5rem; 
+       border-bottom: 0.5rem solid lightseagreen;
+
+}
+h1 {
+    font-size: 1.5rem; 
+    color: white;
+}
+#tittle{
+    text-align: center;
+    height: 25.5rem;
+       background-color: lightgray;
+}
+
+
+* {
+    margin: 0;
+}
+#about{
+    display: flex;
+}
+#about img {
+    height: 18rem;
+}
+#about h3 {
+    width: 10rem;
+    margin: 0 auto;
+    }
+    h3 { 
+        color: lightseagreen; 
+        width: 17rem;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 0.5rem;
+  }
+  
+  #fav {
+         display: flex; 
+         justify-content: space-evenly;
+  }
+
