@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    box-sizing:border-box;
+}
+body {
+    background-image: url(https://cdn.imgchest.com/files/6yxkcg93k7w.png);
+    background-repeat: no-repeat;
+    max-width: 1800px;
+    min-height: 1578px;
+    font-size: 2rem;
+    opacity: .5;
+    color: blue;
+}
+
+.container {
+    display: grid;
+    grid-template-rows:100px 513px 383px 573px;
+    grid-template-areas: 
+    "one five five five"
+   "two two two two"
+   "three three three three"
+   "four four six seven";
+   grid-template-columns: 200px 235px 661px;
+
+}
+.container > * {
+    border: 2px dashed blue;
+}
+.box1 {
+    grid-area: one;
+}
+.box2 {
+    grid-area: two;
+}
+.box3{
+    grid-area: three;
+}
+
+.box4{
+    grid-area: four;
+}
+.box5{
+    grid-area: five;
+}
+.box6{
+    grid-area: six;
+}
+.box7{
+    grid-area: seven;
+}
+
